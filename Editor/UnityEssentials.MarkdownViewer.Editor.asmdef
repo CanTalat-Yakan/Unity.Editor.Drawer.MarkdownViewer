@@ -1,0 +1,21 @@
+{
+    "name": "UnityEssentials.MarkdownViewer.Editor",
+    "rootNamespace": "UnityEssentials.MarkdownViewer",
+    "references": [
+        "GUID:0826d47bf182f5eacbe905b29ebc359a",
+        "GUID:fd1e7b63e0e7d634db53519cc860fe3a"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Markdig.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

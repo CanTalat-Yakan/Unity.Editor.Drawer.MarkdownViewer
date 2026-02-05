@@ -1,0 +1,120 @@
+/* Unity-native-ish markdown styling for Inspector (UI Toolkit) */
+
+.mdv-root {
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 4px;
+    padding-bottom: 6px;
+}
+
+.mdv-block { margin-top: 4px; margin-bottom: 4px; }
+
+.mdv-h1 { -unity-font-style: bold; font-size: 18px; margin-top: 8px; margin-bottom: 6px; }
+.mdv-h2 { -unity-font-style: bold; font-size: 16px; margin-top: 8px; margin-bottom: 6px; }
+.mdv-h3 { -unity-font-style: bold; font-size: 14px; margin-top: 8px; margin-bottom: 4px; }
+.mdv-h4 { -unity-font-style: bold; font-size: 13px; margin-top: 6px; margin-bottom: 4px; }
+.mdv-h5 { -unity-font-style: bold; font-size: 12px; margin-top: 6px; margin-bottom: 4px; }
+.mdv-h6 { -unity-font-style: bold; font-size: 12px; margin-top: 6px; margin-bottom: 4px; opacity: 0.85; }
+
+.mdv-p { white-space: normal; }
+
+.mdv-hr {
+    height: 1px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: rgba(128,128,128,0.35);
+}
+
+.mdv-quote {
+    border-left-width: 3px;
+    border-left-color: rgba(128,128,128,0.6);
+    padding-left: 8px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    background-color: rgba(128,128,128,0.08);
+}
+
+.mdv-inlineCode {
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 3px;
+    background-color: rgba(128,128,128,0.18);
+    -unity-font-style: bold;
+}
+
+.mdv-codeBlock {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding: 6px;
+    border-radius: 4px;
+    background-color: rgba(128,128,128,0.12);
+}
+
+.mdv-code {
+    white-space: normal;
+}
+
+.mdv-codeLine {
+    unity-font: "Consolas";
+    font-size: 11px;
+    white-space: normal;
+}
+
+.mdv-link {
+    color: #3b82f6;
+}
+
+.mdv-link:hover {
+    text-decoration-line: underline;
+}
+
+.mdv-list { margin-top: 4px; margin-bottom: 4px; }
+.mdv-li { flex-direction: row; }
+.mdv-bullet { width: 18px; opacity: 0.85; }
+.mdv-liContent { flex-grow: 1; }
+
+.mdv-tableScroll { margin-top: 6px; margin-bottom: 6px; }
+.mdv-table {
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-left-color: rgba(128,128,128,0.35);
+    border-top-color: rgba(128,128,128,0.35);
+}
+.mdv-tr { flex-direction: row; }
+.mdv-td, .mdv-th {
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-right-color: rgba(128,128,128,0.35);
+    border-bottom-color: rgba(128,128,128,0.35);
+}
+.mdv-th {
+    -unity-font-style: bold;
+    background-color: rgba(128,128,128,0.10);
+}
+
+.mdv-image {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.mdv-imageCaption {
+    opacity: 0.7;
+    font-size: 11px;
+    margin-top: 2px;
+}
+
+.mdv-warning {
+    opacity: 0.9;
+    background-color: rgba(255, 191, 0, 0.12);
+    border-left-width: 3px;
+    border-left-color: rgba(255, 191, 0, 0.7);
+    padding-left: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}

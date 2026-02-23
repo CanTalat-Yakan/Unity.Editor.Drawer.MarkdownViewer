@@ -1,5 +1,5 @@
 {
-    "name": "UnityEssentials.MarkdownViewer.Editor",
+    "name": "UnityEssentials.Editor.Drawer.MarkdownViewer.Editor",
     "rootNamespace": "UnityEssentials.MarkdownViewer",
     "references": [
         "GUID:0826d47bf182f5eacbe905b29ebc359a",

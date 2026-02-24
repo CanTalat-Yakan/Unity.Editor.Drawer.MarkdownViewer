@@ -14,7 +14,7 @@
     "precompiledReferences": [
         "Markdig.dll"
     ],
-    "autoReferenced": true,
+    "autoReferenced": false,
     "defineConstraints": [],
     "versionDefines": [],
     "noEngineReferences": false
